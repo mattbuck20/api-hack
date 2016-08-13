@@ -1,0 +1,139 @@
+html {
+	color: #2B2E34;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+body {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.logo {
+  height: 4em;
+  width: 4em;
+}
+
+.intro {
+   color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.content-wrapper {
+	width: 85%;
+	margin: auto;
+}
+
+.search,
+.header {
+	text-align: center;
+}
+
+.header {
+	margin-top: 6em;
+}
+
+.spotify-link {
+	color: #7CC646;
+	text-decoration: none;
+}
+
+.spotify-link:hover {
+	text-decoration: underline;
+}
+
+.input-search {
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #9A9B9F;
+	font-size: 1.5rem;
+	margin-top: .5em;
+	width: 40%;
+	min-width: 400px;
+}
+
+.btn-search {
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	background-color: #2ebd59;
+	border: none;
+	border-radius: 5px;
+	border: 1px solid #2ebd59;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+.btn-search:hover {
+	background-color: #A6CF88;
+}
+
+.results {
+	border: 1px dashed #9A9B9F;
+	width: 60%;
+	margin: auto;
+	margin-top: 2rem;
+	padding: 15px;
+}
+
+.track {
+	margin-left: 2rem;
+	padding: 15px 0px;
+	border-bottom: 1px solid #9A9B9F;
+}
+
+.btn-play {
+	background-color: #2ebd59;
+	color: #FFFFFF;
+	font-family: 'icomoon';
+	border: 1px solid #2ebd59;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	margin-right: 25px;
+}
+
+.btn-play:focus {
+	outline: 0;
+}
+
+.btn-play:hover {
+	background-color: #A6CF88;
+}
+
+.play::before {
+	content: '\ea1c';
+	font-size: 1rem;
+	line-height: 1rem;
+	padding-left: 2px;
+}
+
+.pause::before {
+	content: '\ea1d';
+	font-size: 1rem;
+	line-height: 1.2rem;
+	padding-left: 2px;
+}
+
+.track-info {
+	display: inline-block;
+}
+
+.track p {
+	display: inline-block;
+	margin: 0;
+}
+
+p.track-album-title {
+	display: block;
+	color: #2ebd59;
+}
+
+.track-album-art {
+	float: right;
+	position: relative;
+	bottom: 8px;
+}
